@@ -1,0 +1,44 @@
+
+.temario{
+    margin:20px;
+    float:left;
+}
+.temario h3{
+    margin:25px;
+    position: relative;
+    left:20%;
+}
+.temario ol{
+    margin-top:0px;
+    margin-right:5px;
+    background-color: antiquewhite;
+    padding:0 10px 20px 10;
+    padding-top:20px;
+    height:500px;
+    border-radius:20px;
+    position:relative;
+    border:3px solid rgb(99, 11, 11);
+    
+    
+
+}
+
+aside img{
+    width:40%;
+    max-height: 45%;
+    border-radius:20px;
+    margin:10px;
+    border:4px solid rgb(122, 10, 126);
+}
+
+footer{
+    clear:both;
+}
+
+@media(max-width:680px){
+    .temario{
+        float:none;
+    }
+    
+
+}
